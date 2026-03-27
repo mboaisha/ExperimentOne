@@ -1,3 +1,13 @@
+# ExperimentOne
+- Trying to build on a bare, minimal Universal Blue basic image.
+- Learning how to build / package certain desktop environments and window managers
+    - Both Wayland and X11
+- Not for use for production
+
+---
+
+# Original README from [image-template](https://github.com/ublue-os/image-template/blob/main/README.md)
+
 # image-template
 
 This repository is meant to be a template for building your own custom [bootc](https://github.com/bootc-dev/bootc) image. This template is the recommended way to make customizations to any image published by the Universal Blue Project.
