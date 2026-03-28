@@ -19,6 +19,8 @@
     - `dunst`
     - `alacritty`
     - `bash`
+    - `rofi`
+    - `polybar`
 - Add some cool fonts
     - [the Atkinson Hyperlegible® font](https://www.brailleinstitute.org/freefont/)
     - Nerd Fonts and Co
