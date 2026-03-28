@@ -4,6 +4,41 @@
     - Both Wayland and X11
 - Not for use for production
 
+## Notes for me (and anyone unfortunate enough to come across this abomination)
+- Need to get as close as I can to [Fedora i3 Spin](https://fedoraproject.org/spins/i3/)
+- Definitely not ready to release an ISO or anything of that sort
+- Fedora i3 Atomic when?
+- I recall `pywal` was difficult to get working. Need to RTFM
+- Starting to think that maybe I should just went with Sway
+- I like `alacritty` the best, `kitty` never felt good to me. `foot` is nice too, but my old Thinkpad x61 can't even run it.
+
+
+## Todos
+- Lock down dots
+    - `i3`: gaps and blur
+    - `dunst`
+    - `alacritty`
+    - `bash`
+- Add some cool fonts
+    - [the Atkinson Hyperlegible® font](https://www.brailleinstitute.org/freefont/)
+    - Nerd Fonts and Co
+- Evaluate alternative shells such as `zsh`
+- Get Bazaar in the image... somehow
+- Trim down packages to the bare minimum
+- Figure out how `just` works. post-install scripts?
+- Decide on a default wallpaper
+- Track down credits for wallpapers and dots I use for inspiratin
+- Nvidia support
+- Gaming (Not sure how it works with X11 tbh)
+- A `*-dx` image 
+- Preload / preinstall things:
+    - `brew`: There are many TUI software that I should try
+    - flatpaks: Many. Obsidian, Spotify, Vesktop, Remmina, etc
+    - appimages: LM Studio, Feishin (preferred (SubSonic) music client), openrgb, etc
+- Consider using tools from DEs such as polkits and such, go away from xfce4
+- Figure out kernel mods
+- Docs... derived from my learning notes.
+
 ---
 
 # Original README from [image-template](https://github.com/ublue-os/image-template/blob/main/README.md)
