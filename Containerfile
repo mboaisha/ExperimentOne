@@ -6,6 +6,13 @@ COPY system_files /files
 # (Minimal) Base Image
 FROM ghcr.io/ublue-os/base-main:latest
 
+# Terra repo + extras
+RUN dnf5 -y install --nogpgcheck \
+      --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' \
+      terra-release{,-extras} && \
+    dnf5 clean all
+
+
 ### Adding brew
 ## According using the ublue-os/brew project
 # Copy Homebrew files from the brew image
